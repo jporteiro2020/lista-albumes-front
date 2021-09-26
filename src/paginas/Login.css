@@ -1,4 +1,4 @@
-/* Esta clase corresponde al contenedor DIV, tiene el titulo h2 y contiene una breve intriducción */
+/* Esta clase corresponde al contenedor DIV con classname .info-beinvenida */
 .info-bienvenida{
     display: grid;
     grid-auto-flow: column;
@@ -10,9 +10,8 @@
     gap: 10px;
 }
 
-/* Aquí se comienza a dar estilo a los botones utilizados para el submit de la suscripción, inicio de sesión, resgistro, 
-   ir a la tienda, ir a los diferentes mapas, etc */
-   .custom-btn {
+/* Aquí se comienza a dar estilo al botón utilizado para el submit del login*/
+.custom-btn {
     color: #fff;
     border-radius: 5px;
     padding: 10px 25px;
@@ -28,13 +27,12 @@
     outline: none;
 }
 
-/* Se le da estilo a los botones de inicio de sesión, registro e ir a la tienda */
+/* Se le da estilo al botón de Login */
 .btn-2 {
     width: 140px;
     height: 40px;
     background: rgb(3, 18, 41);
     background: linear-gradient(0deg, rgb(3, 18, 41) 0%, rgba(2,126,251,1) 100%);
-    /*background: linear-gradient(0deg, rgb(3, 18, 41) 0%, rgba(129,5,240,1) 100%);*/
     border: none;
 }
 

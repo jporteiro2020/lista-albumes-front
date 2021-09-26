@@ -42,7 +42,7 @@ main section div article{
     align-items: center;
 }
 
-/* Esta es la clase del contenedor p, que se encutra dentro del article cuando JavaScript recorre la lista de productos y crea
+/* Esta es la clase del contenedor p, que se encutra dentro del article cuando JavaScript recorre la lista de ábumes y crea
    los nuevos article */
 .article-nombre{
     grid-area: nombre;
@@ -52,18 +52,10 @@ main section div article{
     grid-area: fecha;
 }
 
-/* Esta es la clase del contenedor img, que se encutra dentro del article cuando JavaScript recorre la lista de productos y crea
+/* Esta es la clase del contenedor img, que se encutra dentro del article cuando JavaScript recorre la lista de álbumes y crea
    los nuevos article */
 .img-article{
     grid-area: imagen;
     height: 250px;
     width: 250px;
-}
-
-/* Aquí comienza la media query para los dispositivos móviles */
-@media (max-width:415px) and (min-width:320px) {
-    .media-q{
-        grid-auto-flow: row;
-        grid-template-columns: auto auto;
-    }
 }
