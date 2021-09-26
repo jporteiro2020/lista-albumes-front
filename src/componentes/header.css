@@ -1,0 +1,59 @@
+header{
+    display: grid;
+    grid-area: header;
+    background-color: #2c2c2c;
+    color: white;
+    grid-template-areas: "logo nav busqueda contacto carrito";
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 5vh;
+}
+
+/*Logo es la clase de la etiqueta img contenedor del logo*/
+.logo{
+    grid-area: logo;
+    width: 10vw;
+    height: 10vh;
+}
+
+/* es la clase del form contenedor del input y botón de búsqueda */
+.busqueda{
+    grid-area: busqueda;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 40px;
+}
+
+.icono{
+    grid-area: icono;
+    font-size: 1.7rem;
+}
+
+/* Aquí se comienza a dar estilo al contenedor del form de la búsqueda */
+.estilo-busqueda input {
+    border: none;
+    width: 13vw;
+    font-size: 1rem;
+    border: 2px solid rgb(3, 18, 41);
+}
+
+.estilo-busqueda button {
+    background-color: black;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 3vw;
+    border: 2px solid rgb(3, 18, 41);
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 1rem;
+    font-size: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-busqueda button:hover {
+	background: #2c2c2c;
+    font-size: 1.5rem;
+}
