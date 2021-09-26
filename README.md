@@ -20,6 +20,9 @@ Los redireccionará a la página de Login
 Este endpoint los redireccionará a la página con el buscador. Si se le pasa por query param el nombre del artista, además de mostrar el buscador, listará los álbumes del artista
 seleccionado si este los tuviese.
 
+Para ejecutar el proyecto, debemos utilizar el siguiente comando:
+npm start
+
 ## Contacto
 
 email: jonatan.porteiro@protonmail.com
