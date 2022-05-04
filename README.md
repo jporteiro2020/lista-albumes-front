@@ -1,4 +1,6 @@
 # lista-albumes-front
+Desarrollador: [Jonatan Porteiro](https://www.linkedin.com/in/jonatan-porteiro/)
+
 Para este proyecto estaré usando el framework ReactJS junto con TypeScript
 
 ## Instrucciones:
